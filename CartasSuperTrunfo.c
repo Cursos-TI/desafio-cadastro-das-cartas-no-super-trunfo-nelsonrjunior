@@ -66,7 +66,7 @@ int main() {
     // Calculando a DENSIDADE POPULACIONAL e PIB PER CAPITA para a CARTA 2
     densidade_populacional_carta2 = (populacao_carta2 / area_carta2);
     pib_percapita_carta2 = ((pib_carta2 * 10000000) / populacao_carta2);
-        // Calculando SUPER PODER para CARTA 2
+    // Calculando SUPER PODER para CARTA 2
     super_poder_carta2 = (populacao_carta2 + area_carta2 + pib_carta2 + pontos_turisticos_carta2 + pib_percapita_carta2 + 1/densidade_populacional_carta2);
     //Apresentando as INFORMAÇÕES das CARTAS na tela
     printf("Carta: %s \n", carta1);
