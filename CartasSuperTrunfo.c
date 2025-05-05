@@ -98,5 +98,18 @@ int main() {
     printf("Densidade Populacional: Carta 1 venceu (%d)\n", (densidade_populacional_carta1 > densidade_populacional_carta2));
     printf("PIB per CAPITA: Carta 1 venceu (%d)\n", (pib_percapita_carta1 > pib_percapita_carta2));
     printf("SUPER PODER: Carta 1 venceu (%d)\n", (super_poder_carta1 > super_poder_carta2));
-    return 0;
+    //Comparando Pontos Turísticos entre as duas cartas
+    if (pontos_turisticos_carta1 > pontos_turisticos_carta2)
+        {
+        printf("Carta 1 - %s: %d \n", cidade_carta1, pontos_turisticos_carta1);
+        printf("Carta 2 - %s: %d \n", cidade_carta2, pontos_turisticos_carta2);
+        printf("Carta 1 - %s Venceu! \n", cidade_carta1);
+        }
+        else
+        {
+        printf("Carta 2 - %s: %d \n", cidade_carta2, pontos_turisticos_carta2);
+        printf("Carta 1 - %s: %d \n", cidade_carta1, pontos_turisticos_carta1);
+        printf("Carta 2 - %s Venceu! \n", cidade_carta2);
+        }
+return 0;
 }
